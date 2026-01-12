@@ -163,7 +163,7 @@ export default function CoursesPage() {
 
             <div className="max-w-4xl mx-auto px-4 sm:px-6 lg:px-8 py-12">
                 {/* Filters */}
-                <div className="mb-8 rounded-lg border border-border p-4 sm:p-5">
+                {/*<div className="mb-8 rounded-lg border border-border p-4 sm:p-5">
                     <p className="text-sm font-medium text-muted-foreground mb-3 uppercase tracking-wide">
                         Filter by level
                     </p>
@@ -185,7 +185,7 @@ export default function CoursesPage() {
                             />
                         ))}
                     </div>
-                </div>
+                </div>*/}
 
                 {/* Currently teaching */}
                 <section className="mb-12">

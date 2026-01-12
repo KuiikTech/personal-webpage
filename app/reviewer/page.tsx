@@ -2,7 +2,7 @@
 
 import { useEffect, useMemo, useState } from "react";
 import { PageHeader } from "@/components/PageHeader";
-import { ExternalLink, Search } from "lucide-react";
+import { ExternalLink, Filter } from "lucide-react";
 
 type Journal = {
     id: string;
@@ -34,7 +34,7 @@ export default function ReviewerPage() {
     const [reviewsData, setReviewsData] = useState<ReviewsData | null>(null);
 
     const [selectedCategory, setSelectedCategory] = useState<string>("All");
-    const [query, setQuery] = useState("");
+    const [selectedPublisher, setSelectedPublisher] = useState<string>("All");
 
     useEffect(() => {
         fetch("/data/journals.json")
@@ -53,7 +53,6 @@ export default function ReviewerPage() {
             journalsData.journals.map((j) => [j.id, j]),
         );
 
-        // Join: reviews -> journal
         const joined: CardItem[] = reviewsData.reviews
             .map((r) => {
                 const j = journalById.get(r.journalId);
@@ -62,17 +61,10 @@ export default function ReviewerPage() {
             })
             .filter(Boolean) as CardItem[];
 
-        // Optional: stable sorting (most reviews first, then name)
-        // joined.sort((a, b) => {
-        //     if (b.reviewCount !== a.reviewCount)
-        //         return b.reviewCount - a.reviewCount;
-        //     return a.name.localeCompare(b.name);
-        // });
-
         return joined;
     }, [journalsData, reviewsData]);
 
-    // ✅ categorías únicas a partir del array "categories"
+    // ✅ categorías únicas
     const categories = useMemo(() => {
         const cats = Array.from(
             new Set(items.flatMap((j) => j.categories ?? [])),
@@ -81,23 +73,28 @@ export default function ReviewerPage() {
         return ["All", ...cats];
     }, [items]);
 
-    const filteredItems = useMemo(() => {
-        const q = query.trim().toLowerCase();
+    // ✅ publishers únicos
+    const publishers = useMemo(() => {
+        const pubs = Array.from(
+            new Set(items.map((j) => j.publisher).filter(Boolean)),
+        );
+        pubs.sort((a, b) => a.localeCompare(b));
+        return ["All", ...pubs];
+    }, [items]);
 
+    const filteredItems = useMemo(() => {
         return items.filter((j) => {
             const passCategory =
                 selectedCategory === "All" ||
                 (j.categories ?? []).includes(selectedCategory);
-            if (!passCategory) return false;
 
-            if (!q) return true;
+            const passPublisher =
+                selectedPublisher === "All" ||
+                j.publisher === selectedPublisher;
 
-            const haystack =
-                `${j.name} ${j.abbreviation} ${j.publisher} ${j.issn} ${(j.categories ?? []).join(" ")}`.toLowerCase();
-
-            return haystack.includes(q);
+            return passCategory && passPublisher;
         });
-    }, [items, selectedCategory, query]);
+    }, [items, selectedCategory, selectedPublisher]);
 
     if (!journalsData || !reviewsData) return null;
 
@@ -110,7 +107,24 @@ export default function ReviewerPage() {
 
             <div className="max-w-4xl mx-auto px-4 sm:px-6 lg:px-8 py-12">
                 {/* Filters (responsive) */}
-                <div className="mb-8 flex flex-col gap-3 sm:flex-row sm:items-end sm:justify-between">
+                <div className="mb-8 rounded-lg border border-border p-4 sm:p-5">
+                    <div className="flex items-center gap-2 mb-2">
+                        <Filter size={16} className="text-muted-foreground" />
+                        <p className="text-sm font-medium text-muted-foreground uppercase tracking-wide">
+                            Filters
+                        </p>
+                        {/* Count */}
+                        <p className="text-xs text-muted-foreground">
+                            Showing{" "}
+                            <span className="font-semibold text-foreground">
+                                {filteredItems.length}
+                            </span>{" "}
+                            of{" "}
+                            <span className="font-semibold text-foreground">
+                                {items.length}
+                            </span>
+                        </p>
+                    </div>
                     <div className="flex flex-col gap-2 sm:flex-row sm:items-end">
                         {/* Category dropdown */}
                         <div className="w-full sm:w-64">
@@ -132,37 +146,26 @@ export default function ReviewerPage() {
                             </select>
                         </div>
 
-                        {/* Search */}
-                        <div className="w-full sm:w-72">
+                        {/* Publisher dropdown */}
+                        <div className="w-full sm:w-64">
                             <label className="block text-xs font-medium text-muted-foreground mb-1">
-                                Search
+                                Publisher
                             </label>
-                            <div className="relative">
-                                <Search
-                                    className="absolute left-3 top-1/2 -translate-y-1/2 text-muted-foreground"
-                                    size={16}
-                                />
-                                <input
-                                    value={query}
-                                    onChange={(e) => setQuery(e.target.value)}
-                                    placeholder="Journal, publisher, ISSN..."
-                                    className="w-full h-10 rounded-lg border border-border bg-background pl-9 pr-3 text-sm outline-none focus:ring-2 focus:ring-foreground/20"
-                                />
-                            </div>
+                            <select
+                                value={selectedPublisher}
+                                onChange={(e) =>
+                                    setSelectedPublisher(e.target.value)
+                                }
+                                className="w-full h-10 rounded-lg border border-border bg-background px-3 text-sm outline-none focus:ring-2 focus:ring-foreground/20"
+                            >
+                                {publishers.map((p) => (
+                                    <option key={p} value={p}>
+                                        {p}
+                                    </option>
+                                ))}
+                            </select>
                         </div>
                     </div>
-
-                    {/* Count */}
-                    <p className="text-xs text-muted-foreground">
-                        Showing{" "}
-                        <span className="font-semibold text-foreground">
-                            {filteredItems.length}
-                        </span>{" "}
-                        of{" "}
-                        <span className="font-semibold text-foreground">
-                            {items.length}
-                        </span>
-                    </p>
                 </div>
 
                 {/* Journals Grid */}
@@ -197,21 +200,11 @@ export default function ReviewerPage() {
                                                 {journal.name}
                                             </h3>
 
-                                            <div className="mt-1 flex items-center gap-2 text-xs text-muted-foreground">
-                                                {/* Publisher badge with optional icon */}
+                                            <div className="mt-1 flex flex-wrap items-center gap-2 text-xs text-muted-foreground">
                                                 <span
                                                     className="inline-flex items-center gap-1.5 max-w-full px-2.5 py-1 border border-border rounded-full text-[11px] text-muted-foreground"
                                                     title={journal.publisher}
                                                 >
-                                                    {/*{journal.publisherIcon ? (
-                                                      <img
-                                                          src={
-                                                              journal.publisherIcon
-                                                          }
-                                                          alt={`${journal.publisher} icon`}
-                                                          className="w-3.5 h-3.5 opacity-80"
-                                                      />
-                                                  ) : null}*/}
                                                     <span className="truncate">
                                                         {journal.publisher}
                                                     </span>

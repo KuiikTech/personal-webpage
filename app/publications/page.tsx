@@ -134,6 +134,34 @@ function TypeBadge({
     );
 }
 
+type SortMode = "recent" | "most-cited";
+
+function SortChip({
+    active,
+    label,
+    onClick,
+}: {
+    active: boolean;
+    label: string;
+    onClick: () => void;
+}) {
+    return (
+        <button
+            type="button"
+            onClick={onClick}
+            className={[
+                "inline-flex items-center gap-2 rounded-full border px-3 py-1 text-xs transition-colors",
+                active
+                    ? "border-foreground/20 bg-secondary text-foreground"
+                    : "border-border bg-background text-muted-foreground hover:text-foreground hover:bg-secondary/40",
+            ].join(" ")}
+            aria-pressed={active}
+        >
+            <span className="font-medium">{label}</span>
+        </button>
+    );
+}
+
 /** Rich venue line:
  * - Journal name: highlighted + clickable
  * - Meta: regular muted text
@@ -236,6 +264,9 @@ export default function PublicationsPage() {
     );
     const [selectedYear, setSelectedYear] = useState<number | "all">("all");
 
+    // NEW: sort mode (recent vs most-cited)
+    const [sortMode, setSortMode] = useState<SortMode>("recent");
+
     useEffect(() => {
         fetch("/data/publications.json")
             .then((res) => res.json())
@@ -290,12 +321,38 @@ export default function PublicationsPage() {
         });
     }, [pubs, selectedType, selectedYear]);
 
+    // NEW: sorting with a "Most cited" option
     const sorted = useMemo(() => {
-        return [...filtered].sort((a, b) => {
+        const arr = [...filtered];
+
+        if (sortMode === "most-cited") {
+            // Highest citations first, then newest year/month as tie-breaker, then title for stability
+            arr.sort((a, b) => {
+                const ca = typeof a.citations === "number" ? a.citations : -1;
+                const cb = typeof b.citations === "number" ? b.citations : -1;
+                if (cb !== ca) return cb - ca;
+
+                if (b.year !== a.year) return b.year - a.year;
+                const bm = b.month ?? 0;
+                const am = a.month ?? 0;
+                if (bm !== am) return bm - am;
+
+                return a.title.localeCompare(b.title);
+            });
+            return arr;
+        }
+
+        // Default: most recent first (year desc, month desc, then title)
+        arr.sort((a, b) => {
             if (b.year !== a.year) return b.year - a.year;
-            return (a.month ?? 0) - (b.month ?? 0);
+            const bm = b.month ?? 0;
+            const am = a.month ?? 0;
+            if (bm !== am) return am - bm;
+            return a.title.localeCompare(b.title);
         });
-    }, [filtered]);
+
+        return arr;
+    }, [filtered, sortMode]);
 
     if (!pubData || !journalsData) return null;
 
@@ -309,7 +366,7 @@ export default function PublicationsPage() {
             <div className="max-w-5xl mx-auto px-4 sm:px-6 lg:px-8 py-12">
                 {/* Filters */}
                 <div className="mb-8 rounded-lg border border-border p-4 sm:p-5">
-                    <div className="flex items-center gap-2 mb-4">
+                    <div className="flex items-center gap-2 mb-2">
                         <Filter size={16} className="text-muted-foreground" />
                         <p className="text-sm font-medium text-muted-foreground uppercase tracking-wide">
                             Filters
@@ -332,7 +389,6 @@ export default function PublicationsPage() {
                             <label className="block text-xs font-medium text-muted-foreground mb-2">
                                 Type
                             </label>
-
                             <div className="flex flex-wrap gap-2">
                                 {availableTypes.map((t) => (
                                     <TypeBadge
@@ -368,6 +424,25 @@ export default function PublicationsPage() {
                                     </option>
                                 ))}
                             </select>
+                        </div>
+                    </div>
+
+                    {/* NEW: Sort controls */}
+                    <div className="mt-2">
+                        <label className="block text-xs font-medium text-muted-foreground mb-2">
+                            Sort
+                        </label>
+                        <div className="flex flex-wrap gap-2">
+                            <SortChip
+                                active={sortMode === "recent"}
+                                label="Most recent"
+                                onClick={() => setSortMode("recent")}
+                            />
+                            <SortChip
+                                active={sortMode === "most-cited"}
+                                label="Most cited"
+                                onClick={() => setSortMode("most-cited")}
+                            />
                         </div>
                     </div>
                 </div>
@@ -423,7 +498,7 @@ export default function PublicationsPage() {
                                     <div className="mt-3 grid grid-cols-1 sm:grid-cols-[1fr_260px] gap-4">
                                         {/* Left */}
                                         <div className="min-w-0">
-                                            {/* NEW: Title links to publication URL */}
+                                            {/* Title links to publication URL */}
                                             {pub.url ? (
                                                 <a
                                                     href={pub.url}

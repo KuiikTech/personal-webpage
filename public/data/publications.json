@@ -29,7 +29,8 @@
             "url": "https://ieeexplore.ieee.org/document/11282428/",
             "journalId": "IEEE_ACCESS",
             "volume": "13",
-            "pages": "207776-207807"
+            "pages": "207776-207807",
+            "citations": 0
         },
         {
             "id": "alvares-2020-ieee-access-step-nc-architectures",
@@ -69,7 +70,8 @@
             "volume": "41",
             "issue": "8",
             "pages": "314",
-            "url": "https://link.springer.com/article/10.1007/s40430-019-1811-y"
+            "url": "https://link.springer.com/article/10.1007/s40430-019-1811-y",
+            "citations": 12
         },
         {
             "id": "rodriguez-2025-ijamt-step-nc-am-review",
@@ -106,7 +108,8 @@
             "volume": "233",
             "issue": "7",
             "pages": "855-869",
-            "url": "https://journals.sagepub.com/doi/abs/10.1177/0959651819836915"
+            "url": "https://journals.sagepub.com/doi/abs/10.1177/0959651819836915",
+            "citations": 22
         },
         {
             "id": "alvares-2025-processes-digital-twin-lmd",
@@ -146,7 +149,8 @@
             "volume": "17",
             "issue": "4",
             "pages": "1895-1903",
-            "url": "https://link.springer.com/article/10.1007/s12008-023-01317-5"
+            "url": "https://link.springer.com/article/10.1007/s12008-023-01317-5",
+            "citations": 2
         },
         {
             "id": "latif-2023-ijamt-expert-system-step-nc",
@@ -165,7 +169,8 @@
             "volume": "129",
             "issue": "11-12",
             "pages": "5371-5385",
-            "url": "https://link.springer.com/article/10.1007/s00170-023-12582-9"
+            "url": "https://link.springer.com/article/10.1007/s00170-023-12582-9",
+            "citations": 3
         },
         {
             "id": "cabral-2023-ieee-latam-digital-twin-iso23247",
@@ -183,7 +188,8 @@
             "volume": "21",
             "issue": "5",
             "pages": "628-635",
-            "url": "https://ieeexplore.ieee.org/document/10130834"
+            "url": "https://ieeexplore.ieee.org/document/10130834",
+            "citations": 25
         },
         {
             "id": "rodriguez-2019-ifac-mtconnect-reprap",
@@ -202,7 +208,8 @@
             "volume": "52",
             "issue": "13",
             "pages": "2507-2512",
-            "url": "https://www.sciencedirect.com/science/article/pii/S2405896319315708"
+            "url": "https://www.sciencedirect.com/science/article/pii/S2405896319315708",
+            "citations": 5
         },
         {
             "id": "riano-2019-ifac-closed-loop-inspection",
@@ -219,7 +226,8 @@
             "volume": "52",
             "issue": "13",
             "pages": "2782-2787",
-            "url": "https://www.sciencedirect.com/science/article/pii/S2405896319316179"
+            "url": "https://www.sciencedirect.com/science/article/pii/S2405896319316179",
+            "citations": 15
         },
         {
             "id": "rodriguez-2019-procedia-step-nc-am",
@@ -231,7 +239,8 @@
             "url": "https://linkinghub.elsevier.com/retrieve/pii/S2351978920300020",
             "journalId": "PROCEDIA_MFG",
             "volume": "38",
-            "pages": "9-16"
+            "pages": "9-16",
+            "citations": 37
         },
         {
             "id": "rodriguez-2017-cobem-step-nc-am",
@@ -241,7 +250,8 @@
             "year": 2017,
             "doi": "10.26678/ABCM.COBEM2017.COB17-2435",
             "conference": "24th ABCM International Congress of Mechanical Engineering",
-            "publisher": "ABCM"
+            "publisher": "ABCM",
+            "citations": 7
         },
         {
             "id": "rodriguez-2017-cobef-delta-linear-am",
@@ -255,7 +265,8 @@
             "year": 2017,
             "doi": "10.26678/ABCM.COBEF2017.COF2017-0282",
             "conference": "IX Congresso Brasileiro de Engenharia de Fabricação",
-            "publisher": "ABCM"
+            "publisher": "ABCM",
+            "citations": 9
         },
         {
             "id": "rodriguez-2019-cobef-step-nc-mtconnect",
@@ -265,7 +276,8 @@
             "year": 2019,
             "doi": "10.26678/ABCM.COBEF2019.COF2019-0296",
             "conference": "10º Congresso Brasileiro de Engenharia de Fabricação",
-            "publisher": "ABCM"
+            "publisher": "ABCM",
+            "citations": 3
         },
         {
             "id": "rodriguez-2025-cieta-step-jsdai-parallel-robot",
@@ -330,7 +342,8 @@
             "journalId": "RPD",
             "volume": "4",
             "issue": "1",
-            "pages": "39-53"
+            "pages": "39-53",
+            "citations": 9
         }
     ]
 }

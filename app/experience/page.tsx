@@ -65,10 +65,7 @@ export default function ExperiencePage() {
 
     return (
         <div className="min-h-screen flex flex-col">
-            <PageHeader
-                title="Experience"
-                description="Academic, research, and professional roles"
-            />
+            <PageHeader title="Experience" description="Professional roles" />
 
             <main className="flex-1 max-w-4xl mx-auto w-full px-4 sm:px-6 lg:px-8 py-12">
                 <div className="space-y-8">
@@ -90,26 +87,24 @@ export default function ExperiencePage() {
                                                 <h3 className="text-lg sm:text-xl font-bold leading-snug">
                                                     {exp.role}
                                                 </h3>
-                                                <div className="mt-1 flex items-center gap-2 text-sm text-muted-foreground">
-                                                    <Building2
-                                                        size={16}
-                                                        className="flex-shrink-0"
-                                                    />
-                                                    <span className="leading-snug">
-                                                        {exp.company}
-                                                    </span>
-                                                    {exp.location ? (
-                                                        <>
-                                                            <span aria-hidden>
-                                                                •
-                                                            </span>
-                                                            <span className="leading-snug">
-                                                                {exp.location}
-                                                            </span>
-                                                        </>
-                                                    ) : null}
-                                                </div>
                                             </div>
+                                        </div>
+                                        <div className="mt-1 flex items-center gap-2 text-sm text-muted-foreground">
+                                            <Building2
+                                                size={16}
+                                                className="flex-shrink-0"
+                                            />
+                                            <span className="leading-snug">
+                                                {exp.company}
+                                            </span>
+                                            {exp.location ? (
+                                                <>
+                                                    <span aria-hidden>•</span>
+                                                    <span className="leading-snug">
+                                                        {exp.location}
+                                                    </span>
+                                                </>
+                                            ) : null}
                                         </div>
                                     </div>
 

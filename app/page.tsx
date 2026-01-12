@@ -26,9 +26,19 @@ const navItems = [
         href: "/publications",
     },
     {
+        label: "Reviewer",
+        icon: BarChart3,
+        href: "/reviewer",
+    },
+    {
         label: "Experience",
         icon: Briefcase,
         href: "/experience",
+    },
+    {
+        label: "Distinctions",
+        icon: Medal,
+        href: "/awards",
     },
     {
         label: "Courses",
@@ -39,16 +49,6 @@ const navItems = [
         label: "Tutorials",
         icon: PlayCircle,
         href: "/tutorials",
-    },
-    {
-        label: "Reviewer",
-        icon: BarChart3,
-        href: "/reviewer",
-    },
-    {
-        label: "Distinctions",
-        icon: Medal,
-        href: "/awards",
     },
     {
         label: "Projects",

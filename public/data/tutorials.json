@@ -1,0 +1,82 @@
+{
+    "tutorials": [
+        {
+            "id": "mqtt-arduino",
+            "kind": "guide",
+            "title": "MQTT + Node js + Arduino: ejemplo práctico",
+            "description": "Este documento pretende guiar el desarrollo de una pequeña aplicación de IoT usando escencialmente Arduino, MQTT, Node js y un enfoque web.",
+            "date": "2024-02-01",
+            "level": "intermediate",
+            "duration": "1h",
+            "tags": ["MQTT", "Node js", "Arduino", "Javascript"],
+            "coverImage": "/images/course-covers/mqtt-guide.png",
+            "links": [
+                {
+                    "label": "Guide",
+                    "url": "https://simple-report-7a1.notion.site/MQTT-Node-js-Arduino-6ff29b3daf1049058689fc8d2e3268ee",
+                    "type": "guide"
+                }
+            ]
+        },
+        {
+            "id": "crear-chatgpt",
+            "kind": "video",
+            "title": "Crea tu propio ChatGPT 🤖 con Python, Streamlit y OpenAI API",
+            "description": "Creamos nuestro propio ChatGPT 😱. En este video te muestro como usar la API de OpenAI para crear una versión propia de ChatGPT con Python y Streamlit.",
+            "date": "2023-09-08",
+            "level": "beginner",
+            "duration": "34 min",
+            "tags": ["OpenAI", "Streamlit", "Python"],
+            "links": [
+                {
+                    "label": "Watch on YouTube",
+                    "url": "https://www.youtube.com/watch?v=kUaE8btwt-Y&t=183s",
+                    "type": "youtube"
+                },
+                {
+                    "label": "Code",
+                    "url": "https://github.com/EfrainRodriguez/chatgpt-python-streamlit",
+                    "type": "github"
+                }
+            ]
+        },
+        {
+            "id": "nestjs-api",
+            "kind": "video",
+            "title": "Cómo crear una API con Nest js y MongoDB | CRUD | Proyecto práctico",
+            "description": "Nest js y MongoDB hacen una sinergia PODEROSA 💖. Si eres dev backend con Javascript te interesará llevar tus aplicaciones al siguiente nivel Nest js. En este video vemos como crear una API REST con Nest js y MongoDB.",
+            "date": "2023-06-06",
+            "level": "beginner",
+            "duration": "1h 12 min",
+            "tags": ["Nestjs", "MongoDB", "Typescript"],
+            "links": [
+                {
+                    "label": "Watch on YouTube",
+                    "url": "https://www.youtube.com/watch?v=K7TYj86Z3rY&t=1241s",
+                    "type": "youtube"
+                },
+                {
+                    "label": "Code",
+                    "url": "https://github.com/monkeywit/nestjs-mongodb-api",
+                    "type": "github"
+                }
+            ]
+        },
+        {
+            "id": "ibm-watson",
+            "kind": "video",
+            "title": "Internet de las Cosas con IBM Watson, Node-Red y Arduino",
+            "description": "En este vídeo creamos una aplicación de IoT sencilla usando IBM Watson y Node-Red, donde colectamos datos desde Arduino.",
+            "level": "intermediate",
+            "duration": "25 min",
+            "tags": ["IMB Watson", "NodeRed", "Arduino"],
+            "links": [
+                {
+                    "label": "Watch on YouTube",
+                    "url": "https://www.youtube.com/watch?v=oIaKcCZywWU&t=303s",
+                    "type": "youtube"
+                }
+            ]
+        }
+    ]
+}

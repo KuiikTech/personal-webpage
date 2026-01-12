@@ -1,0 +1,196 @@
+[
+    {
+        "id": "utb-lecturer-mechatronics",
+        "company": "Technological University of Bolívar (UTB)",
+        "role": "Lecturer",
+        "start": "2025-08",
+        "end": "Present",
+        "location": "Cartagena, Colombia",
+        "description": "Lecturer in the Mechatronic Engineering program, teaching core subjects related to production systems, industrial instrumentation, and engineering fundamentals, with an emphasis on automation-oriented problem solving.",
+        "technologies": [
+            "Automatic Production Systems",
+            "Industrial Instrumentation",
+            "Statics",
+            "Control Systems",
+            "Industrial Automation",
+            "Mechatronics"
+        ]
+    },
+    {
+        "id": "licify-senior-fullstack",
+        "company": "Licify",
+        "role": "Tech Lead",
+        "start": "2024-02",
+        "end": "2025-08",
+        "location": "Bogotá, Colombia",
+        "description": "Developing and maintaining software applications for the construction sector, and supporting data engineering workflows and document processing pipelines.",
+        "technologies": [
+            "TypeScript",
+            "Angular",
+            "React",
+            "Node.js",
+            "NestJS",
+            "MongoDB",
+            "GCP Composer",
+            "BigQuery",
+            "Apache Airflow",
+            "Document AI"
+        ]
+    },
+    {
+        "id": "lecturer-pamplona",
+        "company": "University (Pamplona, Colombia)",
+        "role": "Lecturer",
+        "start": "2024-02",
+        "end": "2025-06",
+        "location": "Pamplona, Colombia",
+        "description": "Teaching courses in Industrial Automation, Industrial Instrumentation, Industrial Networking and Communication Systems, Machinery and Process Control Systems, and Object-Oriented Programming.",
+        "technologies": [
+            "Industrial Automation",
+            "Industrial Instrumentation",
+            "Industrial Networks",
+            "Control Systems",
+            "PLC/SCADA",
+            "Object-Oriented Programming"
+        ]
+    },
+    {
+        "id": "witsoft-senior-fullstack",
+        "company": "Witsoft Group",
+        "role": "Tech Lead",
+        "start": "2022-12",
+        "end": "2023-12",
+        "location": "Pamplona, Colombia",
+        "description": "Developed and maintained SaaS applications for SMBs as a full-stack developer, contributing across frontend, backend, infrastructure, and deployments.",
+        "technologies": [
+            "TypeScript",
+            "JavaScript",
+            "React",
+            "Next.js",
+            "Node.js",
+            "NestJS",
+            "PostgreSQL",
+            "MongoDB",
+            "Docker",
+            "AWS",
+            "EC2",
+            "S3",
+            "Lambda"
+        ]
+    },
+    {
+        "id": "houm-software-engineer",
+        "company": "Houm",
+        "role": "Software Engineer",
+        "start": "2022-07",
+        "end": "2022-11",
+        "location": "Bogotá, Colombia",
+        "description": "Developed and maintained applications for the real estate sector, working end-to-end across frontend and backend, including REST APIs, CI/CD, and cloud deployments.",
+        "technologies": [
+            "TypeScript",
+            "JavaScript",
+            "React",
+            "Next.js",
+            "Material UI",
+            "Vercel",
+            "Node.js",
+            "NestJS",
+            "REST APIs",
+            "MongoDB",
+            "PostgreSQL",
+            "SQL",
+            "AWS",
+            "Docker",
+            "GitHub Actions"
+        ]
+    },
+    {
+        "id": "mutuus-frontend-dev",
+        "company": "Mutuus",
+        "role": "Frontend Software Developer",
+        "start": "2021-02",
+        "end": "2022-07",
+        "location": "Brasília, Brazil",
+        "description": "Developed and maintained frontend applications for digital insurance quoting and contracting, working with multiple frameworks and UI libraries for production-grade interfaces.",
+        "technologies": [
+            "TypeScript",
+            "JavaScript",
+            "Angular",
+            "Vue.js",
+            "React",
+            "Next.js",
+            "Ant Design",
+            "Material UI",
+            "Redux",
+            "LESS"
+        ]
+    },
+    {
+        "id": "fundacao-euclides-software-dev",
+        "company": "Fundação Euclides da Cunha",
+        "role": "Software Developer",
+        "start": "2018-04",
+        "end": "2018-07",
+        "location": "Brasília, Brazil",
+        "description": "Implemented statistical and AI algorithms for processing temporal satellite imagery (C++), and developed a full-stack web application for data workflows and visualization.",
+        "technologies": [
+            "C++",
+            "JavaScript",
+            "HTML",
+            "CSS",
+            "Node.js",
+            "React",
+            "MongoDB"
+        ]
+    },
+    {
+        "id": "unidesc-lecturer",
+        "company": "UNIDESC",
+        "role": "Lecturer",
+        "start": "2019-02",
+        "end": "2021-07",
+        "location": "Brasília, Brazil",
+        "description": "Taught in-person and remote courses in Object-Oriented Programming I & II (Java), Object-Oriented Analysis, Data Structures, Software Engineering I & II, and Internet of Things.",
+        "technologies": [
+            "Java",
+            "OOP",
+            "Data Structures",
+            "Software Engineering",
+            "IoT"
+        ]
+    },
+    {
+        "id": "unb-scientific-researcher",
+        "company": "University of Brasília (UnB)",
+        "role": "Scientific Researcher",
+        "start": "2018-04",
+        "end": "2022-04",
+        "location": "Brasília, Brazil",
+        "description": "Researcher affiliated with the GIAI group, focusing on industrial robotics and advanced manufacturing systems. Author/co-author of peer-reviewed journal articles and conference papers, contributing to standards-based manufacturing research.",
+        "technologies": [
+            "Industrial Robotics",
+            "Advanced Manufacturing",
+            "Additive Manufacturing",
+            "STEP / STEP-NC",
+            "Digital Thread",
+            "Digital Twins"
+        ]
+    },
+    {
+        "id": "monkeywit-youtube",
+        "company": "MonkeyWit",
+        "role": "Technology Content Creator (YouTube)",
+        "start": "2020-03",
+        "end": "Present",
+        "location": "Brasília, Brazil",
+        "description": "Creating video tutorials and courses on web technologies through the MonkeyWit YouTube channel.",
+        "technologies": [
+            "Web Development",
+            "React",
+            "Next.js",
+            "TypeScript",
+            "Node.js",
+            "Software Engineering"
+        ]
+    }
+]

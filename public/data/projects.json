@@ -1,0 +1,33 @@
+[
+    {
+        "id": "robotic-cell-metal-profiles-2021",
+        "title": "Development of a Robotic Cell for Additive Manufacturing of Customized Metal Profiles for Civil Construction",
+        "status": "ongoing",
+        "start": "2021",
+        "end": "Present",
+        "country": "Brazil",
+        "institution": "University of Brasília (UnB)",
+        "fundedBy": "Research Support Foundation of the Federal District (FAPDF)",
+        "leader": "Alberto José Alvares",
+        "members": [
+            "Guilherme C. de Carvalho",
+            "Jones M. Yudi",
+            "Edson Paulo da Silva",
+            "Efraín Andrés Rodríguez Gasca",
+            "Deborah de Oliveira",
+            "Maksym Ziberov",
+            "Joaquim Norberto Cardoso Pires da Silva",
+            "João Vítor Arantes Cabral",
+            "Leonardo Felipe"
+        ],
+        "abstract": "Development of a robotic additive manufacturing cell for customized metal profiles aimed at civil construction applications, focusing on advanced manufacturing processes and industrial robotic integration.",
+        "description": "This research project is funded under the FAPDF Call 03/2021 – Induced Demand, with a total budget of approximately BRL 1 million. The project focuses on the development of a robotic additive manufacturing cell for customized metal profiles applied to the civil construction sector, integrating industrial robotics, metal deposition processes, and advanced control strategies. The project includes international collaboration with the University of Coimbra (CEMMPRE – Department of Mechanical Engineering, Portugal) and is aligned with strategic macro-areas such as Information and Communication Technologies, Creative Economy, Biotechnology, Science, Management, and Digital Government (Process No. 00193-00001024/2021-62).",
+        "technologies": [
+            "Robotic Additive Manufacturing",
+            "Metal Additive Manufacturing",
+            "Industrial Robotics",
+            "Wire-Based Deposition",
+            "Advanced Manufacturing Systems"
+        ]
+    }
+]

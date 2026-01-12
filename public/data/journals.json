@@ -1,0 +1,249 @@
+{
+    "journals": [
+        {
+            "id": "JMS",
+            "name": "Journal of Manufacturing Systems",
+            "abbreviation": "JMS",
+            "issn": "0278-6125",
+            "website": "https://www.sciencedirect.com/journal/journal-of-manufacturing-systems",
+            "publisher": "Elsevier",
+            "publisherIcon": "/data/publishers/elsevier.svg",
+            "categories": ["Manufacturing", "Engineering"],
+            "coverImage": "/images/journals/jms.jpg",
+            "scimagoSid": "",
+            "scimagoHtml": ""
+        },
+        {
+            "id": "PROG_ADDIT_MANUF",
+            "name": "Progress in Additive Manufacturing",
+            "abbreviation": "Prog Addit Manuf",
+            "issn": "2363-9512",
+            "website": "https://www.springer.com/journal/40964",
+            "publisher": "Springer",
+            "publisherIcon": "/data/publishers/springer.svg",
+            "categories": ["Manufacturing", "Engineering"],
+            "coverImage": "/images/journals/prog-add-mfg.webp",
+            "scimagoSid": "",
+            "scimagoHtml": ""
+        },
+        {
+            "id": "IEEE_ACCESS",
+            "name": "IEEE Access",
+            "abbreviation": "IEEE Access",
+            "issn": "2169-3536",
+            "website": "https://ieeexplore.ieee.org/xpl/RecentIssue.jsp?punumber=6287639",
+            "publisher": "IEEE",
+            "publisherIcon": "/data/publishers/ieee.svg",
+            "categories": ["Multidisciplinary"],
+            "coverImage": "/images/journals/ieee-access.jpg",
+            "scimagoHtml": "<a href=\"https://www.scimagojr.com/journalsearch.php?q=21100374601&amp;tip=sid&amp;exact=no\" title=\"SCImago Journal &amp; Country Rank\"><img border=\"0\" src=\"https://www.scimagojr.com/journal_img.php?id=21100374601\" alt=\"SCImago Journal &amp; Country Rank\"  /></a>"
+        },
+        {
+            "id": "CIE",
+            "name": "Computers & Industrial Engineering",
+            "abbreviation": "CIE",
+            "issn": "0360-8352",
+            "website": "https://www.sciencedirect.com/journal/computers-and-industrial-engineering",
+            "publisher": "Elsevier",
+            "publisherIcon": "/data/publishers/elsevier.svg",
+            "categories": ["Industrial Engineering"],
+            "coverImage": "/images/journals/cie.jpg",
+            "scimagoHtml": ""
+        },
+        {
+            "id": "IJCIM",
+            "name": "International Journal of Computer Integrated Manufacturing",
+            "abbreviation": "IJCIM",
+            "issn": "0951-192X",
+            "website": "https://www.tandfonline.com/toc/tcim20/current",
+            "publisher": "Taylor & Francis",
+            "publisherIcon": "/data/publishers/taylor-francis.svg",
+            "categories": ["Manufacturing", "Engineering"],
+            "coverImage": "/images/journals/ijcim.jpg",
+            "scimagoHtml": ""
+        },
+        {
+            "id": "RESULTS_ENG",
+            "name": "Results in Engineering",
+            "abbreviation": "Results Eng",
+            "issn": "2590-1230",
+            "website": "https://www.sciencedirect.com/journal/results-in-engineering",
+            "publisher": "Elsevier",
+            "publisherIcon": "/data/publishers/elsevier.svg",
+            "categories": ["Engineering"],
+            "coverImage": "/images/journals/result-eng.jpg",
+            "scimagoHtml": ""
+        },
+        {
+            "id": "IEEE_LATAM_TRANS",
+            "name": "IEEE Latin America Transactions",
+            "abbreviation": "IEEE LATAM Trans.",
+            "issn": "1548-0992",
+            "website": "https://latamt.ieeer9.org/index.php/transactions",
+            "publisher": "IEEE",
+            "publisherIcon": "/data/publishers/ieee.svg",
+            "categories": ["Engineering"],
+            "coverImage": "",
+            "scimagoHtml": "<a href=\"https://www.scimagojr.com/journalsearch.php?q=19700181218&amp;tip=sid&amp;exact=no\" title=\"SCImago Journal &amp; Country Rank\"><img border=\"0\" src=\"https://www.scimagojr.com/journal_img.php?id=19700181218\" alt=\"SCImago Journal &amp; Country Rank\"  /></a>"
+        },
+        {
+            "id": "J_SUPERCOMPUT",
+            "name": "Journal of Supercomputing",
+            "abbreviation": "J Supercomput",
+            "issn": "0920-8542",
+            "website": "https://www.springer.com/journal/11227",
+            "publisher": "Springer",
+            "publisherIcon": "/data/publishers/springer.svg",
+            "categories": ["Computing"],
+            "coverImage": "/images/journals/supercomp.webp",
+            "scimagoHtml": ""
+        },
+        {
+            "id": "SCI_REP",
+            "name": "Scientific Reports",
+            "abbreviation": "Sci Rep",
+            "issn": "2045-2322",
+            "website": "https://www.nature.com/srep/",
+            "publisher": "Nature Portfolio (Springer Nature)",
+            "publisherIcon": "/data/publishers/springer-nature.svg",
+            "categories": ["Multidisciplinary"],
+            "coverImage": "",
+            "scimagoSid": "20428",
+            "scimagoHtml": "<a href=\"https://www.scimagojr.com/journalsearch.php?q=20428&amp;tip=sid&amp;exact=no\" title=\"SCImago Journal &amp; Country Rank\"><img border=\"0\" src=\"https://www.scimagojr.com/journal_img.php?id=20428\" alt=\"SCImago Journal &amp; Country Rank\" /></a>"
+        },
+        {
+            "id": "JBSMSE",
+            "name": "Journal of the Brazilian Society of Mechanical Sciences and Engineering",
+            "abbreviation": "JBSMSE",
+            "issn": "1678-5878",
+            "website": "https://www.springer.com/journal/40430",
+            "publisher": "Springer",
+            "publisherIcon": "/data/publishers/springer.svg",
+            "categories": ["Mechanical Engineering"],
+            "coverImage": "/images/journals/jbsmse.webp",
+            "scimagoHtml": "<a href=\"https://www.scimagojr.com/journalsearch.php?q=71359&amp;tip=sid&amp;exact=no\" title=\"SCImago Journal &amp; Country Rank\"><img border=\"0\" src=\"https://www.scimagojr.com/journal_img.php?id=71359\" alt=\"SCImago Journal &amp; Country Rank\" /></a>"
+        },
+        {
+            "id": "DISCOVER_APPL_SCI",
+            "name": "Discover Applied Sciences",
+            "abbreviation": "Discover Appl Sci",
+            "issn": "3004-9261",
+            "website": "https://link.springer.com/journal/42452",
+            "publisher": "Springer",
+            "publisherIcon": "/data/publishers/springer.svg",
+            "categories": ["Multidisciplinary", "Engineering"],
+            "coverImage": "/images/journals/discov-app-sci.webp",
+            "scimagoHtml": ""
+        },
+        {
+            "id": "FRONT_AI",
+            "name": "Frontiers in Artificial Intelligence",
+            "abbreviation": "Front. AI",
+            "issn": "2624-8212",
+            "website": "https://www.frontiersin.org/journals/artificial-intelligence",
+            "publisher": "Frontiers Media",
+            "publisherIcon": "/data/publishers/frontiers.svg",
+            "categories": ["Artificial Intelligence"],
+            "coverImage": "",
+            "scimagoSid": "",
+            "scimagoHtml": ""
+        },
+        {
+            "id": "IJAMT",
+            "name": "The International Journal of Advanced Manufacturing Technology",
+            "abbreviation": "Int. J. Adv. Manuf. Technol.",
+            "issn": "0268-3768",
+            "website": "https://www.springer.com/journal/170",
+            "publisher": "Springer",
+            "publisherIcon": "/data/publishers/springer.svg",
+            "categories": [
+                "Engineering",
+                "Manufacturing",
+                "Mechanical Engineering"
+            ],
+            "coverImage": "/images/journals/ijamt.webp",
+            "scimagoHtml": "<a href=\"https://www.scimagojr.com/journalsearch.php?q=20428&amp;tip=sid&amp;exact=no\" title=\"SCImago Journal &amp; Country Rank\"><img border=\"0\" src=\"https://www.scimagojr.com/journal_img.php?id=20428\" alt=\"SCImago Journal &amp; Country Rank\"  /></a>"
+        },
+        {
+            "id": "IJIDEM",
+            "name": "International Journal on Interactive Design and Manufacturing",
+            "abbreviation": "Int. J. Interact. Des. Manuf.",
+            "issn": "1955-2505",
+            "website": "https://link.springer.com/journal/12008",
+            "publisher": "Springer",
+            "publisherIcon": "/data/publishers/springer.svg",
+            "categories": [
+                "Interactive Design",
+                "Manufacturing",
+                "Engineering"
+            ],
+            "coverImage": "/images/journals/ijidem.webp",
+            "scimagoHtml": "<a href=\"https://www.scimagojr.com/journalsearch.php?q=12000154536&amp;tip=sid&amp;exact=no\" title=\"SCImago Journal &amp; Country Rank\"><img border=\"0\" src=\"https://www.scimagojr.com/journal_img.php?id=12000154536\" alt=\"SCImago Journal &amp; Country Rank\"  /></a>"
+        },
+        {
+            "id": "PROCESSES",
+            "name": "Processes",
+            "abbreviation": "Processes",
+            "issn": "2227-9717",
+            "website": "https://www.mdpi.com/journal/processes",
+            "publisher": "MDPI",
+            "publisherIcon": "/data/publishers/mdpi.svg",
+            "categories": [
+                "Chemical Engineering",
+                "Material Processes",
+                "Manufacturing Processes",
+                "Environmental Processes"
+            ],
+            "coverImage": "",
+            "scimagoHtml": "<a href=\"https://www.scimagojr.com/journalsearch.php?q=21100838131&amp;tip=sid&amp;exact=no\" title=\"SCImago Journal &amp; Country Rank\"><img border=\"0\" src=\"https://www.scimagojr.com/journal_img.php?id=21100838131\" alt=\"SCImago Journal &amp; Country Rank\"  /></a>"
+        },
+        {
+            "id": "IFAC_POL",
+            "name": "IFAC-PapersOnLine",
+            "abbreviation": "IFAC-PapersOnLine",
+            "issn": "2405-8963",
+            "website": "https://www.sciencedirect.com/journal/ifac-papersonline",
+            "publisher": "Elsevier",
+            "publisherIcon": "/data/publishers/elsevier.svg",
+            "categories": [
+                "Control Engineering",
+                "Automation",
+                "Manufacturing Systems"
+            ],
+            "coverImage": "/images/journals/ifac-papers-online.jpg",
+            "scimagoHtml": "<a href=\"https://www.scimagojr.com/journalsearch.php?q=21100456158&amp;tip=sid&amp;exact=no\" title=\"SCImago Journal &amp; Country Rank\"><img border=\"0\" src=\"https://www.scimagojr.com/journal_img.php?id=21100456158\" alt=\"SCImago Journal &amp; Country Rank\"  /></a>"
+        },
+        {
+            "id": "PROCEDIA_MFG",
+            "name": "Procedia Manufacturing",
+            "abbreviation": "Procedia Manuf.",
+            "issn": "2351-9789",
+            "website": "https://www.sciencedirect.com/journal/procedia-manufacturing",
+            "publisher": "Elsevier",
+            "publisherIcon": "/data/publishers/elsevier.svg",
+            "categories": [
+                "Manufacturing Engineering",
+                "Production Systems",
+                "Industrial Engineering"
+            ],
+            "coverImage": "/images/journals/proced-mfg.jpg",
+            "scimagoHtml": "<a href=\"https://www.scimagojr.com/journalsearch.php?q=21100792109&amp;tip=sid&amp;exact=no\" title=\"SCImago Journal &amp; Country Rank\"><img border=\"0\" src=\"https://www.scimagojr.com/journal_img.php?id=21100792109\" alt=\"SCImago Journal &amp; Country Rank\" /></a>"
+        },
+        {
+            "id": "PROC_IMECH_I",
+            "name": "Proceedings of the Institution of Mechanical Engineers, Part I: Journal of Systems and Control Engineering",
+            "abbreviation": "Proc. IMechE, Part I",
+            "issn": "0959-6518",
+            "website": "https://journals.sagepub.com/home/pii",
+            "publisher": "SAGE Publications",
+            "publisherIcon": "/data/publishers/sage.svg",
+            "categories": [
+                "Systems Engineering",
+                "Control Engineering",
+                "Mechanical Engineering"
+            ],
+            "coverImage": "/images/journals/pime-part-i-control.webp",
+            "scimagoHtml": "<a href=\"https://www.scimagojr.com/journalsearch.php?q=14500154701&amp;tip=sid&amp;exact=no\" title=\"SCImago Journal &amp; Country Rank\"><img border=\"0\" src=\"https://www.scimagojr.com/journal_img.php?id=14500154701\" alt=\"SCImago Journal &amp; Country Rank\" /></a>"
+        }
+    ]
+}

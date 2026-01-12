@@ -1,0 +1,44 @@
+[
+    {
+        "id": "edu-1",
+        "degree": "Ph.D.",
+        "field": "Mechatronic Systems",
+        "institution": "University of Brasilia",
+        "graduationYear": 2024,
+        "location": "Brasilia, Brasil",
+        "description": "",
+        "advisors": ["Prof. Dr. Alberto J. Alvares"],
+        "thesis": {
+            "title": "Digital ecosystem for additive manufacturing driven by standards-based Digital Thread and Digital Twins.",
+            "language": "English"
+        }
+    },
+    {
+        "id": "edu-2",
+        "degree": "Master's",
+        "field": "Mechatronic Systems",
+        "institution": "University of Brasilia",
+        "graduationYear": 2018,
+        "location": "Brasilia, Brasil",
+        "description": "",
+        "advisors": ["Prof. Dr. Alberto J. Alvares"],
+        "thesis": {
+            "title": "Desenvolvimento de um robô com cinemática paralela Delta Linear para manufatura aditiva adherente a STEP-NC",
+            "language": "Portuguese"
+        }
+    },
+    {
+        "id": "edu-3",
+        "degree": "Bachelor's",
+        "field": "Mechatronic Engineering",
+        "institution": "University of Pamplona",
+        "graduationYear": 2015,
+        "location": "Pamplona, Colombia",
+        "description": "",
+        "advisors": [],
+        "thesis": {
+            "title": "Diseño y desarrollo de un robot parelelo para la impresión 3D",
+            "language": "Spanish"
+        }
+    }
+]

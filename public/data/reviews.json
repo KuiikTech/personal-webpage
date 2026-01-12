@@ -1,0 +1,64 @@
+{
+    "reviews": [
+        {
+            "journalId": "JMS",
+            "reviewsSince": 2025,
+            "reviewCount": 4
+        },
+        {
+            "journalId": "PROG_ADDIT_MANUF",
+            "reviewsSince": 2025,
+            "reviewCount": 5
+        },
+        {
+            "journalId": "IEEE_ACCESS",
+            "reviewsSince": 2022,
+            "reviewCount": 1
+        },
+        {
+            "journalId": "CIE",
+            "reviewsSince": 2025,
+            "reviewCount": 2
+        },
+        {
+            "journalId": "IJCIM",
+            "reviewsSince": 2020,
+            "reviewCount": 1
+        },
+        {
+            "journalId": "RESULTS_ENG",
+            "reviewsSince": 2025,
+            "reviewCount": 4
+        },
+        {
+            "journalId": "IEEE_LATAM_TRANS",
+            "reviewsSince": 2022,
+            "reviewCount": 2
+        },
+        {
+            "journalId": "J_SUPERCOMPUT",
+            "reviewsSince": 2025,
+            "reviewCount": 1
+        },
+        {
+            "journalId": "SCI_REP",
+            "reviewsSince": 2025,
+            "reviewCount": 1
+        },
+        {
+            "journalId": "JBSMSE",
+            "reviewsSince": 2025,
+            "reviewCount": 1
+        },
+        {
+            "journalId": "DISCOVER_APPL_SCI",
+            "reviewsSince": 2025,
+            "reviewCount": 2
+        },
+        {
+            "journalId": "FRONT_AI",
+            "reviewsSince": 2021,
+            "reviewCount": 1
+        }
+    ]
+}

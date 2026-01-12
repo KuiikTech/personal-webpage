@@ -1,0 +1,336 @@
+{
+    "publications": [
+        {
+            "id": "rodriguez-2019-linear-delta",
+            "type": "article",
+            "title": "Design and dimensional synthesis of a Linear Delta robot with single legs for additive manufacturing",
+            "authors": [
+                "Efrain Rodriguez",
+                "Cristhian Riaño",
+                "Alberto Alvares",
+                "Renan Bonnard"
+            ],
+            "year": 2019,
+            "doi": "10.1007/s40430-019-2039-6",
+            "url": "http://link.springer.com/10.1007/s40430-019-2039-6",
+            "journalId": "JBSMSE",
+            "volume": "41",
+            "issue": "11",
+            "pages": "536",
+            "citations": 36
+        },
+        {
+            "id": "rodriguez-2025-ieee-access-digital-ecosystem",
+            "type": "article",
+            "title": "Toward a Digital Ecosystem for Additive Manufacturing Driven by Standards-Based Digital Thread and Digital Twins",
+            "authors": ["Efrain Rodriguez", "Alberto J. Alvares"],
+            "year": 2025,
+            "doi": "10.1109/ACCESS.2025.3641205",
+            "url": "https://ieeexplore.ieee.org/document/11282428/",
+            "journalId": "IEEE_ACCESS",
+            "volume": "13",
+            "pages": "207776-207807"
+        },
+        {
+            "id": "alvares-2020-ieee-access-step-nc-architectures",
+            "type": "article",
+            "title": "STEP-NC Architectures for Industrial Robotic Machining: Review, Implementation and Validation",
+            "authors": [
+                "Alberto J. Alvares",
+                "Efrain Rodriguez",
+                "Cristhian I. Riano Jaimes",
+                "Juan S. Toquica",
+                "Joao C. E. Ferreira"
+            ],
+            "year": 2020,
+            "doi": "10.1109/ACCESS.2020.3017561",
+            "journalId": "IEEE_ACCESS",
+            "volume": "8",
+            "pages": "152592-152610",
+            "citations": 13,
+            "url": "https://ieeexplore.ieee.org/document/9170533"
+        },
+        {
+            "id": "toquica-2019-jbsmse-step-nc-industrial-robots",
+            "type": "article",
+            "title": "STEP-NC-based machining architecture applied to industrial robots",
+            "authors": [
+                "Juan S. Toquica",
+                "Sasa Zivanovic",
+                "Renan Bonnard",
+                "Efrain Rodriguez",
+                "Alberto J. Alvares",
+                "João C. E. Ferreira"
+            ],
+            "year": 2019,
+            "month": 8,
+            "doi": "10.1007/s40430-019-1811-y",
+            "journalId": "JBSMSE",
+            "volume": "41",
+            "issue": "8",
+            "pages": "314",
+            "url": "https://link.springer.com/article/10.1007/s40430-019-1811-y"
+        },
+        {
+            "id": "rodriguez-2025-ijamt-step-nc-am-review",
+            "type": "article",
+            "title": "STEP-NC in additive manufacturing: a comprehensive review, architecture, and data model proposal",
+            "authors": [
+                "Efrain Rodriguez",
+                "Alberto Alvares",
+                "Cristhian Riaño"
+            ],
+            "year": 2025,
+            "month": 4,
+            "doi": "10.1007/s00170-025-15290-8",
+            "url": "https://link.springer.com/10.1007/s00170-025-15290-8",
+            "journalId": "IJAMT",
+            "volume": "137",
+            "issue": "11-12",
+            "pages": "5751-5787",
+            "citations": 6
+        },
+        {
+            "id": "rodriguez-2019-imeche-linear-delta-optimization",
+            "type": "article",
+            "title": "Conceptual design and dimensional optimization of the linear delta robot with single legs for additive manufacturing",
+            "authors": [
+                "Efrain Rodriguez",
+                "Alberto J. Alvares",
+                "Cristhian I. R. Jaimes"
+            ],
+            "year": 2019,
+            "month": 1,
+            "doi": "10.1177/0959651819836915",
+            "journalId": "PROC_IMECH_I",
+            "volume": "233",
+            "issue": "7",
+            "pages": "855-869",
+            "url": "https://journals.sagepub.com/doi/abs/10.1177/0959651819836915"
+        },
+        {
+            "id": "alvares-2025-processes-digital-twin-lmd",
+            "type": "article",
+            "title": "Digital-Twin-Enabled Process Monitoring for a Robotic Additive Manufacturing Cell Using Wire-Based Laser Metal Deposition",
+            "authors": [
+                "Alberto José Alvares",
+                "Efrain Rodriguez",
+                "Brayan Figueroa"
+            ],
+            "year": 2025,
+            "month": 7,
+            "doi": "10.3390/pr13082335",
+            "journalId": "PROCESSES",
+            "volume": "13",
+            "issue": "8",
+            "pages": "2335",
+            "citations": 2,
+            "url": "https://www.mdpi.com/2227-9717/13/8/2335"
+        },
+        {
+            "id": "latif-2023-ijidem-indirect-step-nc",
+            "type": "article",
+            "title": "New system architecture and algorithm design for indirect STEP-NC implementation",
+            "authors": [
+                "Kamran Latif",
+                "Yusri Yusof",
+                "Aini Zuhra Abdul Kadir",
+                "Renan Bonnard",
+                "Efrain Rodriguez",
+                "Nazareno de Oliveira Pacheco"
+            ],
+            "year": 2023,
+            "month": 3,
+            "doi": "10.1007/s12008-023-01317-5",
+            "journalId": "IJIDEM",
+            "volume": "17",
+            "issue": "4",
+            "pages": "1895-1903",
+            "url": "https://link.springer.com/article/10.1007/s12008-023-01317-5"
+        },
+        {
+            "id": "latif-2023-ijamt-expert-system-step-nc",
+            "type": "article",
+            "title": "Expert system to implement STEP-NC data interface model on CNC machine",
+            "authors": [
+                "Kamran Latif",
+                "Efrain Rodriguez",
+                "Renan Bonnard",
+                "Yusri Yusof",
+                "Aini Zuhra Abdul Kadir"
+            ],
+            "year": 2023,
+            "doi": "10.1007/s00170-023-12582-9",
+            "journalId": "IJAMT",
+            "volume": "129",
+            "issue": "11-12",
+            "pages": "5371-5385",
+            "url": "https://link.springer.com/article/10.1007/s00170-023-12582-9"
+        },
+        {
+            "id": "cabral-2023-ieee-latam-digital-twin-iso23247",
+            "type": "article",
+            "title": "Digital Twin Implementation for Machining Center Based on ISO 23247 Standard",
+            "authors": [
+                "João Vitor Arantes Cabral",
+                "Efraín Andrés Rodríguez Gasca",
+                "Alberto Jose Alvares"
+            ],
+            "year": 2023,
+            "month": 5,
+            "doi": "10.1109/TLA.2023.10130834",
+            "journalId": "IEEE_LATAM_TRANS",
+            "volume": "21",
+            "issue": "5",
+            "pages": "628-635",
+            "url": "https://ieeexplore.ieee.org/document/10130834"
+        },
+        {
+            "id": "rodriguez-2019-ifac-mtconnect-reprap",
+            "type": "article",
+            "title": "Developing a MTConnect Framework for RepRap Additive Manufacturing Machines",
+            "authors": [
+                "Efrain Rodriguez",
+                "Juan Pablo Rodriguez",
+                "Alberto J. Alvares",
+                "Cristhian Riaño",
+                "Luiz Eduardo de Oliveira"
+            ],
+            "year": 2019,
+            "doi": "10.1016/j.ifacol.2019.11.583",
+            "journalId": "IFAC_POL",
+            "volume": "52",
+            "issue": "13",
+            "pages": "2507-2512",
+            "url": "https://www.sciencedirect.com/science/article/pii/S2405896319315708"
+        },
+        {
+            "id": "riano-2019-ifac-closed-loop-inspection",
+            "type": "article",
+            "title": "A Closed-Loop Inspection Architecture for Additive Manufacturing Based on STEP Standard",
+            "authors": [
+                "Cristhian Riaño",
+                "Efrain Rodriguez",
+                "Alberto J. Alvares"
+            ],
+            "year": 2019,
+            "doi": "10.1016/j.ifacol.2019.11.629",
+            "journalId": "IFAC_POL",
+            "volume": "52",
+            "issue": "13",
+            "pages": "2782-2787",
+            "url": "https://www.sciencedirect.com/science/article/pii/S2405896319316179"
+        },
+        {
+            "id": "rodriguez-2019-procedia-step-nc-am",
+            "type": "article",
+            "title": "A STEP-NC implementation approach for additive manufacturing",
+            "authors": ["Efrain Rodriguez", "Alberto Alvares"],
+            "year": 2019,
+            "doi": "10.1016/j.promfg.2020.01.002",
+            "url": "https://linkinghub.elsevier.com/retrieve/pii/S2351978920300020",
+            "journalId": "PROCEDIA_MFG",
+            "volume": "38",
+            "pages": "9-16"
+        },
+        {
+            "id": "rodriguez-2017-cobem-step-nc-am",
+            "type": "conference",
+            "title": "Proposal of an Advanced Data Model for STEP-NC Compliant Additive Manufacturing",
+            "authors": ["Efrain Rodriguez", "Renan Bonnard", "Alberto Alvares"],
+            "year": 2017,
+            "doi": "10.26678/ABCM.COBEM2017.COB17-2435",
+            "conference": "24th ABCM International Congress of Mechanical Engineering",
+            "publisher": "ABCM"
+        },
+        {
+            "id": "rodriguez-2017-cobef-delta-linear-am",
+            "type": "conference",
+            "title": "Projeto Mecatrônico de um Robô com Cinemática Paralela Delta Linear para Manufatura Aditiva",
+            "authors": [
+                "Efrain Rodriguez",
+                "Cristhian Ivan Riaño Jaimes",
+                "Alberto Alvares"
+            ],
+            "year": 2017,
+            "doi": "10.26678/ABCM.COBEF2017.COF2017-0282",
+            "conference": "IX Congresso Brasileiro de Engenharia de Fabricação",
+            "publisher": "ABCM"
+        },
+        {
+            "id": "rodriguez-2019-cobef-step-nc-mtconnect",
+            "type": "conference",
+            "title": "Implementation of the STEP-NC and MTConnect Standards for Additive Manufacturing",
+            "authors": ["Efrain Rodriguez", "Alberto Alvares"],
+            "year": 2019,
+            "doi": "10.26678/ABCM.COBEF2019.COF2019-0296",
+            "conference": "10º Congresso Brasileiro de Engenharia de Fabricação",
+            "publisher": "ABCM"
+        },
+        {
+            "id": "rodriguez-2025-cieta-step-jsdai-parallel-robot",
+            "type": "conference",
+            "title": "STEP–JSDAI Integration Model for the Kinematic Control of a Parallel Robot Applied to Manufacturing Processes",
+            "authors": [
+                "Cesar Augusto Pena Cortes",
+                "Cristhian Ivan Riaño Jaimes",
+                "Efrain Andres Rodriguez Gasca"
+            ],
+            "year": 2025,
+            "month": 5,
+            "conference": "XVII International Congress on Electronics and Advanced Technologies (CIETA 2025)",
+            "location": "Pamplona, Colombia",
+            "publisher": "Universidad de Pamplona"
+        },
+        {
+            "id": "rodriguez-2025-cieta-ml-process-monitoring-waam",
+            "type": "conference",
+            "title": "A Review on Machine Learning for Process Monitoring and Defect Detection in Wire Arc Additive Manufacturing",
+            "authors": [
+                "Bladimir Azdrubal Ramon Valencia",
+                "Cesar Augusto Pena Cortes",
+                "Cristhian Ivan Riaño Jaimes",
+                "Efrain Andres Rodriguez Gasca"
+            ],
+            "year": 2025,
+            "month": 5,
+            "conference": "XVII International Congress on Electronics and Advanced Technologies (CIETA 2025)",
+            "location": "Pamplona, Colombia",
+            "publisher": "Universidad de Pamplona"
+        },
+        {
+            "id": "rodriguez-2025-cieta-waam-process-parameters-review",
+            "type": "conference",
+            "title": "Impact of Process Parameters on Mechanical Properties in Parts Produced by Wire Arc Additive Manufacturing: A Short Review",
+            "authors": [
+                "Bladimir Azdrubal Ramon Valencia",
+                "Cesar Augusto Pena Cortes",
+                "Cristhian Ivan Riaño Jaimes",
+                "Efrain Andres Rodriguez Gasca"
+            ],
+            "year": 2025,
+            "month": 5,
+            "conference": "XVII International Congress on Electronics and Advanced Technologies (CIETA 2025)",
+            "location": "Pamplona, Colombia",
+            "publisher": "Universidad de Pamplona"
+        },
+        {
+            "id": "rodriguez-2018-rpd-step-nc-am",
+            "type": "article",
+            "title": "Advances in the Development of a STEP-NC-Based Additive Manufacturing System",
+            "authors": [
+                "Efrain Rodriguez",
+                "Renan Bonnard",
+                "Alberto José Alvares"
+            ],
+            "year": 2018,
+            "month": 3,
+            "doi": "10.32358/rpd.2018.v4.310",
+            "url": "http://revistas.cefet-rj.br/index.php/producaoedesenvolvimento/article/view/310",
+            "journalId": "RPD",
+            "volume": "4",
+            "issue": "1",
+            "pages": "39-53"
+        }
+    ]
+}

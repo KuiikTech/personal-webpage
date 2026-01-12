@@ -1,0 +1,72 @@
+[
+    {
+        "id": "award-2015-redcolsi",
+        "title": "Meritorious recognition for the work “Design and construction of a parallel robot for 3D printing”",
+        "organization": "Fundación Red Colombiana de Semilleros de Investigación (RedCOLSI) – Nodo Bogotá",
+        "event": "XVIII National and VII International Meeting of Research Seedbeds",
+        "location": "Santiago de Cali, Colombia",
+        "date": "2015-10",
+        "type": "Recognition",
+        "details": ""
+    },
+    {
+        "id": "award-2015-unipamplona-semillero",
+        "title": "Recognition for research performance and contribution in the Automation and Control seedbed",
+        "organization": "Vice Rectoría de Investigaciones – Universidad de Pamplona",
+        "event": "",
+        "location": "Pamplona, Colombia",
+        "date": "2015-12",
+        "type": "Recognition",
+        "details": ""
+    },
+    {
+        "id": "award-2015-feria-ingenierias",
+        "title": "1st place – Faculty of Engineering and Architecture Fair",
+        "organization": "Facultad de Ingenierías y Arquitectura – Universidad de Pamplona",
+        "event": "",
+        "location": "Pamplona, Colombia",
+        "date": "2015-11",
+        "type": "1st Place",
+        "details": "Edition 2015"
+    },
+    {
+        "id": "award-2014-olimpiadas-robotica",
+        "title": "1st place – Exhibition category, IX National Robotics Olympics",
+        "organization": "Mechatronics Engineering Program – Universidad de Pamplona",
+        "event": "IX Olimpiadas Nacionales de Robótica",
+        "location": "Pamplona, Colombia",
+        "date": "2014-11",
+        "type": "1st Place",
+        "details": ""
+    },
+    {
+        "id": "award-2015-olimpiadas-robotica",
+        "title": "1st place – Exhibition category, X National Robotics Olympics",
+        "organization": "Mechatronics Engineering Program – Universidad de Pamplona",
+        "event": "X Olimpiadas Nacionales de Robótica",
+        "location": "Pamplona, Colombia",
+        "date": "2015-11-2",
+        "type": "1st Place",
+        "details": ""
+    },
+    {
+        "id": "scholarship-2016-capes-msc-unb",
+        "title": "CAPES Scholarship for Master’s Studies in Mechatronic Systems",
+        "organization": "Coordenação de Aperfeiçoamento de Pessoal de Nível Superior (CAPES), Brazil",
+        "event": "Programa de Pós-Graduação em Sistemas Mecatrônicos",
+        "location": "University of Brasília (UnB), Brazil",
+        "date": "2016-03",
+        "type": "Scholarship",
+        "details": "Full-time master’s scholarship (24 months), monthly stipend of BRL 1,500"
+    },
+    {
+        "id": "scholarship-2018-cnpq-phd-unb",
+        "title": "CNPq Scholarship for Doctoral Studies in Mechatronic Systems",
+        "organization": "Conselho Nacional de Desenvolvimento Científico e Tecnológico (CNPq), Brazil",
+        "event": "Programa de Pós-Graduação em Sistemas Mecatrônicos",
+        "location": "University of Brasília (UnB), Brazil",
+        "date": "2018-04",
+        "type": "Scholarship",
+        "details": "Full-time doctoral scholarship (48 months), monthly stipend of BRL 2,200"
+    }
+]
